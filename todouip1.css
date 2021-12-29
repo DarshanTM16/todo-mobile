@@ -1,0 +1,93 @@
+@media screen and (max-width:320px  ) and (max-width:380px) {
+    body{
+        flex-direction: column;
+        }
+}
+
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family:"adobe-clean", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+
+}
+.main-heading{
+    margin-top: 30px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.container-card{
+    display: inline-block;
+    flex-direction: column;
+    width: 240px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(211, 27, 27);
+    border-radius: 5px;
+    box-shadow:  4px 4px 5px 2px lightgray;
+
+}
+.subheading{
+    margin-top: 20px;
+    color: tomato;
+    font-size: 25px;
+}
+
+.completed-task{
+    margin-top: 30px;
+    color: tomato;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight : 500;
+}
+.pendingtask{
+    margin-top: 30px;
+    margin-left: -60px;
+    font-size: 20px;
+}
+.addbtn{
+    margin-top: 120px;
+    margin-left: 70%;
+    width: 40px;
+    height:40px;
+    background-color: rgb(219, 9, 9);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.backbtn{
+    width: 40px;
+    height:40px;
+    background-color: rgb(219, 9, 9);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.back2{
+    color: white;
+    text-decoration: none;
+}
+
+.add2{
+    color: white;
+    text-decoration: none;
+ }

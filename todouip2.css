@@ -1,0 +1,128 @@
+@media screen and (max-width:320px  ) and (max-width:380px) {
+    body{
+        flex-direction: column;
+        }
+}
+
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family:"adobe-clean", sans-serif;
+    background-color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.card{
+    width: 30%;
+    height: 700px;
+    background-color: white;
+
+}
+
+.main-headings{
+    margin-top: 30px;
+    font-size: 50px;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.placeholder{
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    border-color: rgb(245, 107, 107);
+    font-size: 20px;
+    box-shadow: 4px 4px 4px 2px lightgrey;
+}
+
+.lists{
+    color: gray;
+    font-family:  "adobe-clean", sans-serif;
+}
+
+.add{
+    width: 40px;
+    height:40px;
+    background-color: rgb(219, 9, 9);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+.add2{
+    color: white;
+    text-decoration: none;
+}
+
+
+.notshow{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+
+.container1{
+    width: 70%;
+    height: 100%;
+    font-family:"adobe-clean", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 230px;
+}
+
+.card1{
+    margin-top: 10%;
+    width: 40%;
+    height: 200px;
+    border: 1px solid rgb(201, 23, 23);
+    border-radius: 8px;
+    box-shadow: 4px 4px  6px 3px lightgrey;
+    background-color: white;
+}
+.addnew{
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+.placeholder{
+    margin-top: 20px;
+    height: 35px;
+    width: 80%;
+    border-radius: 8px;
+    border-color:rgb(250, 84, 84);
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.addbtn{
+    margin-top: 20px;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(201, 23, 23);
+}
+
+.add2{
+    color: white;
+    text-decoration: none;
+ }
